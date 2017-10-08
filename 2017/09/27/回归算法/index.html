@@ -6,18 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://lenghonglin.cn">
-  <title>随笔 | lenghonglin的博客</title>
+  <title>回归算法 | lenghonglin的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="总得找个地方写写骚话">
-<meta property="og:type" content="website">
-<meta property="og:title" content="随笔">
-<meta property="og:url" content="http://lenghonglin.cn/随笔/index.html">
+  <meta name="description" content="监督学习：给定一堆数据集，让机器得出一个算法，再次给定一个新的数据，机器就能得出一个新的预测值。或者，给出一定数据，机器进行分类。举例：给出已知的数据集，X为房子的面积，Y为房子可以售出的价格。再给出一个新的房子面积，那么机器能给出一个预测值。假设在数据集中，X为肿瘤的大小，Y为得肿瘤的概率（其取值为0或者1，意为肿瘤良性或肿瘤恶性）。再次给定一个新的肿瘤大小，我们就可以得出该肿瘤大小为良性还是恶">
+<meta property="og:type" content="article">
+<meta property="og:title" content="回归算法">
+<meta property="og:url" content="http://lenghonglin.cn/2017/09/27/回归算法/index.html">
 <meta property="og:site_name" content="lenghonglin的博客">
-<meta property="og:description" content="总得找个地方写写骚话">
-<meta property="og:updated_time" content="2017-08-29T10:34:53.570Z">
+<meta property="og:description" content="监督学习：给定一堆数据集，让机器得出一个算法，再次给定一个新的数据，机器就能得出一个新的预测值。或者，给出一定数据，机器进行分类。举例：给出已知的数据集，X为房子的面积，Y为房子可以售出的价格。再给出一个新的房子面积，那么机器能给出一个预测值。假设在数据集中，X为肿瘤的大小，Y为得肿瘤的概率（其取值为0或者1，意为肿瘤良性或肿瘤恶性）。再次给定一个新的肿瘤大小，我们就可以得出该肿瘤大小为良性还是恶">
+<meta property="og:updated_time" content="2017-09-30T04:54:06.856Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="随笔">
-<meta name="twitter:description" content="总得找个地方写写骚话">
+<meta name="twitter:title" content="回归算法">
+<meta name="twitter:description" content="监督学习：给定一堆数据集，让机器得出一个算法，再次给定一个新的数据，机器就能得出一个新的预测值。或者，给出一定数据，机器进行分类。举例：给出已知的数据集，X为房子的面积，Y为房子可以售出的价格。再给出一个新的房子面积，那么机器能给出一个预测值。假设在数据集中，X为肿瘤的大小，Y为得肿瘤的概率（其取值为0或者1，意为肿瘤良性或肿瘤恶性）。再次给定一个新的肿瘤大小，我们就可以得出该肿瘤大小为良性还是恶">
   
     <link rel="alternative" href="/atom.xml" title="lenghonglin的博客" type="application/atom+xml">
   
@@ -157,27 +157,35 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-回归算法" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      随笔
+      回归算法
     </h1>
   
 
         
-        <a href="/随笔/index.html" class="archive-article-date">
-  	<time datetime="2017-08-29T10:34:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-29</time>
+        <a href="/2017/09/27/回归算法/" class="archive-article-date">
+  	<time datetime="2017-09-27T01:40:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-27</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>监督学习：给定一堆数据集，让机器得出一个算法，再次给定一个新的数据，机器就能得出一个新的预测值。或者，给出一定数据，机器进行分类。举例：给出已知的数据集，X为房子的面积，Y为房子可以售出的价格。再给出一个新的房子面积，那么机器能给出一个预测值。假设在数据集中，X为肿瘤的大小，Y为得肿瘤的概率（其取值为0或者1，意为肿瘤良性或肿瘤恶性）。再次给定一个新的肿瘤大小，我们就可以得出该肿瘤大小为良性还是恶性</p>
+<p>无监督学习：给定一堆数据集，让机器来进行属性分类。比如，</p>
+<p>有标签叫有监督学习  无标签叫无监督学习   </p>
+<p>回归：出来的结果是具体的数值</p>
+<p>代价函数</p>
+<p>求导找最小值</p>
+<p>轮廓图</p>
+<p>梯度下降法找最小值</p>
+
       
 
       
@@ -256,7 +264,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://lenghonglin.cn/随笔/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://lenghonglin.cn/2017/09/27/回归算法/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -268,6 +276,25 @@
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2017/10/08/air800/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Air800(GPRS+GPS模块)连接OneNet平台
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/09/18/MySQL-python/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">win7 64 安装mysql-python提示找不到config-win.h</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -331,7 +358,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
